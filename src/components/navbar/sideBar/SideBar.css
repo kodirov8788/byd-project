@@ -1,0 +1,68 @@
+.sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100vh;
+    background-color: white;
+    z-index: 50px;
+    transition: 1s;
+    color: black;
+    overflow: auto;
+}
+
+.sidebar__wrapper {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sidebar__button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sidebar__button button {
+    background-color: transparent;
+    border: none;
+    font-size: 23px;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar li {
+    padding: 25px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sidebar__language {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+
+.sibebar__language div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sibebar__account div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
